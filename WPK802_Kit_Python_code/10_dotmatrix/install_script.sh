@@ -18,7 +18,7 @@ LED Matrix for Basic Learning Kit for RPi python example install script
 
 "
 echo "Enabling SPI..."
-raspi-config nonint do_spi 0
+sudo raspi-config nonint do_spi 0
 echo -e "SPI interface enabled \e[32m\xE2\x9C\x94\e[39m, checking if SPI interface is available..."
 
 if lsmod | grep -q spi; then
@@ -44,8 +44,8 @@ else
 fi
 
 echo "Installing dependencies for library..."
-usermod -a -G spi,gpio pi
-apt install build-essential python3-dev python3-pip libfreetype6-dev libjpeg-dev libopenjp2-7 libtiff5 git
+sudo usermod -a -G spi,gpio pi
+sudo apt install build-essential python3-dev python3-pip libfreetype6-dev libjpeg-dev libopenjp2-7 libtiff5 git
 
 if [ $? -eq 0 ]
 then
