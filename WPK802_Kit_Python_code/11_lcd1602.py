@@ -258,10 +258,10 @@ def loop():
 		lcd.message(" LCD 1602 Test \n123456789ABCDEF")
 		sleep(2)
 		lcd.clear()
-		lcd.message("   SUNFOUNDER \nHello World ! :)")
+		lcd.message("   Whadda  \nHello World ! :)")
 		sleep(2)
 		lcd.clear()
-		lcd.message("Welcom to --->\n  sunfounder.com")
+		lcd.message("Check out ----->\n  whadda.com")
 		sleep(2)
 
 if __name__ == '__main__':
