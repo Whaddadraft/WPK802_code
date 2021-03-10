@@ -1,4 +1,4 @@
-# Example code for Whadda WPK802
+# Example code for the Whadda basic learning kit for Rapsberry Pi 
 
 This repository contains the example code that complements the [Whadda WPK802 Basic Learning Kit for Raspberry Pi®](https://whadda.com/product/basic-learning-kit-for-raspberry-pi-vmp502/).
 
