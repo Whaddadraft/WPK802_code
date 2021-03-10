@@ -19,7 +19,7 @@ sudo apt install git
 
 3. Finally, download the example code by cloning this git repository:
 ```
-git clone https://github.com/Velleman/WPK802_code.git
+git clone https://github.com/WhaddaMakers/basic_learning_kit_for_raspberry_pi_code.git
 ```
 
 ## Manual
